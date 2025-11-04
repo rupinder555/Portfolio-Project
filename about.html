@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      width: 220px;
+      background-color: #222;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      height: 100vh;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 30px;
+      color: #ff9f43;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: white;
+      margin: 10px 0;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #ff9f43;
+    }
+    .about {
+      background: white;
+      border-radius: 15px;
+      padding: 30px;
+      margin-bottom: 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+
+    .about h2 {
+      color: #ff9f43;
+      margin-bottom: 10px;
+      margin-left: 210px;
+    }
+
+    .about p {
+      color: #555;
+      line-height: 1.6;
+      margin-left: 210px;
+    }
+
+    </style>
+</head>
+<body>
+    
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <h2>Rupinder</h2>
+    <a href="index.html" target = _blank>Home</a>
+    <a href="about.html" target = _blank>About</a>
+    <a href="project.html" target = _blank>Projects</a>
+    <a href="contact.html" target="_blank">Contact</a>
+  </div>
+   <!-- About Section -->
+    <section class="about" id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm Rupinder Kaur, a web developer with a passion for building stylish and user-friendly digital experiences.
+        I enjoy working with HTML, CSS, JavaScript, and frameworks like React.
+        My goal is to make every project clean, elegant, and easy to use.
+      </p>
+    </section>
+</body>
+</html>

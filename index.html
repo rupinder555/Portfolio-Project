@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rupinder Kaur Portfolio</title>
+  <style>
+    /* ---------- RESET ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      width: 220px;
+      background-color: #222;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      height: 100vh;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 30px;
+      color: #ff9f43;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: white;
+      margin: 10px 0;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #ff9f43;
+    }
+
+    /* ---------- MAIN CONTENT ---------- */
+    .main {
+      margin-left: 220px;
+      padding: 40px;
+      flex: 1;
+    }
+
+    /* ---------- HERO SECTION ---------- */
+    .hero {
+      background: linear-gradient(135deg, #ffe0b5, #ffd6a5);
+      border-radius: 15px;
+      padding: 40px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+
+    .hero img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid #ff9f43;
+      margin-bottom: 15px;
+    }
+
+    .hero h1 {
+      color: #ff7a00;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .hero h3 {
+      color: #333;
+      margin-bottom: 15px;
+      font-weight: 500;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    /* ---------- RESPONSIVE ---------- */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+
+      .sidebar {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 15px;
+        position: static;
+      }
+
+      .main {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <h2>Rupinder</h2>
+    <a href="index.html" target = "_blank">Home</a>
+    <a href="about.html" target = _blank>About</a>
+    <a href="project.html" target = _blank>Projects</a>
+    <a href="contact.html" target="_blank">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div class="main">
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <h1>Rupinder Kaur</h1>
+      <h3>Front End Developer</h3>
+      <p>
+        Welcome to my portfolio! I create modern, responsive, and functional websites.
+        I love bringing creative ideas to life through code and design.
+      </p>
+    </section>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       /* ---------- RESET ---------- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+
+    /* ---------- SIDEBAR ---------- */
+    .sidebar {
+      width: 220px;
+      background-color: #222;
+      color: white;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: fixed;
+      height: 100vh;
+    }
+
+    .sidebar h2 {
+      margin-bottom: 30px;
+      color: #ff9f43;
+    }
+
+    .sidebar a {
+      text-decoration: none;
+      color: white;
+      margin: 10px 0;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+
+    .sidebar a:hover {
+      color: #ff9f43;
+    }
+    /* ---------- CONTACT SECTION ---------- */
+    .contact {
+      padding: 2px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .contact h2 {
+    color: #ff7a00;
+    margin-bottom: 10px;
+    margin-left:220px;
+    }
+
+    .contact a {
+      color: #333;
+      text-decoration: none;
+      margin-top: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+      margin-left: 200px;
+    }
+
+    .contact a:hover {
+      color: #ff7a00;
+    }
+
+    /* ---------- FOOTER ---------- */
+    footer {
+      text-align: center;
+      padding: 15px;
+      color: #777;
+      font-size: 14px;
+    }
+ 
+    </style>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+  <div class="sidebar">
+    <h2>Rupinder</h2>
+    <a href="index.html" target="_blank">Home</a>
+    <a href="about.html" target = _blank>About</a>
+    <a href="project.html" target = _blank>Projects</a>
+    <a href="contact.html" target="_blank">Contact</a>
+  </div>
+     <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <a href = "#" >📧 rupinderkaur33233@gmail.com</a>
+      <a href="#" >🌐 +91 9992715562</a>
+    </section>
+
+    <footer>
+      © 2025 Rupinder Kaur | Designed with ❤️
+    </footer>
+</body>
+</html>
